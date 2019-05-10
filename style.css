@@ -1,0 +1,22 @@
+.jumbotron {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  background-image: url("./assets/bg.jpg");
+  background-size: 100% auto;
+  min-height: 475px;
+}
+
+.main-text {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#header {
+  color: white;
+  font-weight: bold;
+}
+
+#subheader {
+  color: yellow;
+}
