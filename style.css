@@ -12,6 +12,11 @@
   font-family: 'Fira Sans', sans-serif;
 }
 
+.card {
+  text-align: center;
+  padding: 20px;
+}
+
 #header {
   color: white;
   font-weight: bold;
