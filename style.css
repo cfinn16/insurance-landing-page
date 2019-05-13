@@ -5,7 +5,7 @@
   width:100%;
   background-image: url("./assets/bg.jpg");
   background-size: 100% auto;
-  min-height: 475px;
+  min-height: 450px;
 }
 
 .main-text {
@@ -14,12 +14,17 @@
 
 .card {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
+}
+
+.form-control {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .btn-danger {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #card-footer {
