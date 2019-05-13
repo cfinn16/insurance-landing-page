@@ -17,6 +17,16 @@
   padding: 20px;
 }
 
+.btn-danger {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#card-footer {
+  color: red;
+  font-size: 0.8em
+}
+
 #header {
   color: white;
   font-weight: bold;
