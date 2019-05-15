@@ -12,60 +12,69 @@
     <script src="src/main.js" charset="utf-8"></script>
   </head>
   <body>
-    <div class="jumbotron">
-      <div class="row">
-        <div class="col-sm-6" class="main-text">
-          <h2 id="header">Lower Your Auto Insurance Rates</h2>
-          <h4 id="subheader">Compare Rates To Save On Your Policy Today!</h4>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <h5 class="card-title">Cheap Auto Coverage</h5>
-            <p class="card-text">Complete just <strong>3 simple steps</strong> to get quotes from top providers in your area.</p>
-            <div id="#insurance-form">
-              <form>
-                <div class="form-group">
-                  <input type="number" class="form-control" id="zip-code" placeholder="Zip Code">
-                </div>
-                <div class="form group">
-                  <select class="form-control" id="insured">
-                    <option selected disabled>Currently Insured?</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                  </select>
-                </div>
-                <div class="form group">
-                  <select class="form-control" id="age-range">
-                    <option selected disabled>Your Age Range</option>
-                    <option value="0">Under 25</option>
-                    <option value="1">25 to 34</option>
-                    <option value="2">35 to 44</option>
-                    <option value="3">45 to 55</option>
-                    <option value="4">Over 55</option>
-                  </select>
-                </div>
-                <button type="button" class="btn btn-danger" data-toggle="modal" data-action="submit" data-target="#exampleModal">Find Lower Rates</button>
-              </form>
+    <!-- <div class="container" id="main-unit"> -->
+      <div class="jumbotron container-fluid">
+        <div class="row">
+          <div class="col-md-8 main-text">
+            <h1 id="main-info">Lower Your Auto Insurance Rates</h1>
+            <h4 id="secondary-info">Compare Rates To Save On Your Policy Today!</h4>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <h5 class="card-title">Cheap Auto Coverage</h5>
+              <p class="card-text">Complete just <strong>3 simple steps</strong> to get quotes from top providers in your area.</p>
+              <div id="#insurance-form">
+                <form>
+                  <div class="form-group">
+                    <input type="number" class="form-control" id="zip-code" placeholder="Zip Code">
+                  </div>
+                  <div class="form group">
+                    <select class="form-control" id="insured">
+                      <option selected disabled>Currently Insured?</option>
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                  </div>
+                  <div class="form group">
+                    <select class="form-control" id="age-range">
+                      <option selected disabled>Your Age Range</option>
+                      <option value="0">Under 25</option>
+                      <option value="1">25 to 34</option>
+                      <option value="2">35 to 44</option>
+                      <option value="3">45 to 55</option>
+                      <option value="4">Over 55</option>
+                    </select>
+                  </div>
+                  <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-action="submit" data-target="#exampleModal">Find Lower Rates</button>
+                  <button type="button" class="btn btn-primary btn-block" id="#call-button">Talk to a Live Agent</button>
+                </form>
+              </div>
+              <p class="card-text" id="card-footer">Your information is safe and secure.</p>
             </div>
-            <p class="card-text" id="card-footer">Your information is safe and secure.</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="modal fade" id="insuranceModal" tabindex="-1" role="dialog" aria-labelledby="insuranceModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="insuranceModalLabel">Here is the model</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+      <div class="modal fade" id="insuranceModal" tabindex="-1" role="dialog" aria-labelledby="insuranceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="col-11 modal-title text-center" id="insuranceModalLabel">Here is the model</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer">
-      <h4>We provide the following services</h4>
+    <!-- </div> -->
+    <div class="container col-sm-4" id="#secondary-info">
+      <h3>We provide free quotes from top providers in your area in less time.</h3>
+      <ul>
+        <li>Save time researching policies.</li>
+        <li>Get a fast response with no waiting.</li>
+        <li>Compare low-cost policies.</li>
+        <li>Save up to 30% on auto insurance.</li>
+      </ul>
     </div>
 
 
