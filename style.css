@@ -2,10 +2,17 @@
   display: none;
 }
 
+body {
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 768px) {
   .btn-primary {
     display: block;
     margin: auto;
+  }
+  body {
+    font-size: 12px;
   }
 }
 
@@ -28,20 +35,25 @@
 }
 
 .main-text {
-  padding-left: 20%
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+#form-container {
+  margin: auto
 }
 
 .card {
-  /* text-align: center; */
+  max-width: 75%;
   padding: 15px;
+  justify-content: center;
 }
 
 .card-title {
   text-align: left;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.4em;
   padding-top: 20px;
-  padding-left: 15px;
 }
 
 .card-text {
@@ -73,14 +85,16 @@
 
 .main-text h4 {
   color: yellow;
+  font-size: 1.5em;
 }
 
 h3 {
   color: red;
+  font-size: 120%;
 }
 
 #secondary-info {
-  justify-content: flex-start;
+  max-width: 350px;
 }
 
 ul {
@@ -92,4 +106,9 @@ ul {
 
 ul li:before {
   content: '✓ ';
+}
+
+img {
+  padding-bottom: 15px;
+  max-width: 66%;
 }
