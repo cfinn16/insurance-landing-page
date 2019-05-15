@@ -6,6 +6,12 @@ body {
   font-size: 16px;
 }
 
+h3 {
+  color: red;
+  font-size: 120%;
+  margin-left: 16%;
+}
+
 @media only screen and (max-width: 768px) {
   .btn-primary {
     display: block;
@@ -13,6 +19,12 @@ body {
   }
   body {
     font-size: 12px;
+  }
+  h3 {
+    font-size: 80 vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
   }
 }
 
@@ -88,20 +100,11 @@ body {
   font-size: 1.5em;
 }
 
-h3 {
-  color: red;
-  font-size: 120%;
-}
-
-#secondary-info {
-  max-width: 350px;
-}
-
 ul {
   list-style: none;
   list-style-position:inside;
-  margin:0;
-  padding:0;
+  margin-left: 16%;
+  padding: 0;
 }
 
 ul li:before {
@@ -109,6 +112,6 @@ ul li:before {
 }
 
 img {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   max-width: 66%;
 }
